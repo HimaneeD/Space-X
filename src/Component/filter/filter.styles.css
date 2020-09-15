@@ -1,0 +1,25 @@
+@media screen and (max-width: 700px) {
+.filter-card {
+    float: left;
+    margin: 15px 26px;
+    background-color: white;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+.filter-card {
+  width: 20vw;
+  display: grid;
+  float: left;
+  margin: 0px 12px;
+  background-color: white;
+}
+}
+
+@media only screen and (min-width: 701px) and (max-width: 1024px){
+  .filter-card {
+    margin-left: 22vw;
+    width:50vw;
+    background-color: white;
+  }
+}

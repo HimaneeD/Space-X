@@ -1,0 +1,23 @@
+  @media screen and (max-width: 700px) {
+    .card-list {
+      display: inline-block;
+    }
+  }
+
+  @media only screen and (min-width: 701px) and (max-width: 1024px){
+    .card-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 3vw;
+    margin-left:6%;
+    }
+  }
+
+  @media screen and (min-width: 1025px) {
+    .card-list {
+      width: 50vw;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-gap: 20px;
+    }
+  }

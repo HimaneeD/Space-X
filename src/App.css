@@ -1,0 +1,9 @@
+.App {
+  text-align: center;
+  background-color: aliceblue;
+}
+
+.App-header , .App-footer{
+  font-size: xxx-large;
+  font-weight: bold;
+}
